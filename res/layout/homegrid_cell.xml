@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:paddingTop="10dip" android:paddingBottom="10dip" android:background="@drawable/homegridcell_border">
+    <ImageView android:id="@+id/GridCellImage" android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:src="@drawable/icon" android:layout_gravity="center"></ImageView>
+    <TextView android:text="@+id/GridCellName" android:id="@+id/TextView01" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:layout_gravity="center"
+              android:textColor="#545559"></TextView>
+</LinearLayout>

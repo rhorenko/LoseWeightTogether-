@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	 >
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+		android:visibility="gone">
+		<ImageView
+			style="@style/headerIcon" />
+		<TextView
+			style="@style/headerText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activity_post_title1" />
+	</LinearLayout>
+	
+	<LinearLayout 
+	android:id="@+id/LinearLayout101" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	style="@style/backColor" 
+	android:orientation="vertical"
+    android:gravity="center_horizontal" 
+    >
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+           <TableRow android:id="@+id/StatusTableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:paddingTop="4dip" android:paddingLeft="2dip">
+        <EditText android:id="@+id/StatusEditText1" android:layout_height="wrap_content"
+                  android:layout_width="wrap_content" android:layout_weight="1"
+                  android:text="Я худею с помощью программы LoseWeightTogether!"
+                  android:visibility="visible">
+        </EditText>
+    </TableRow>
+</LinearLayout>
+
+    <LinearLayout 
+	android:orientation="horizontal"
+	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+	<TextView 
+	android:textSize="22dp"
+	android:text="на " android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#000000" >
+	 </TextView>
+    <EditText 
+    android:text="1.0" android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:id="@+id/inputWeight1" 
+	android:inputType="numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView 
+	android:textSize="22dp"
+	android:text="kg" android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#000000" 
+	>
+	 </TextView>
+	 
+	 	 <Button android:id="@+id/SetButton1"
+	     android:text="@string/activity_feed_set"
+	    android:layout_height="wrap_content"
+	     android:layout_width="wrap_content" android:layout_gravity="center_vertical"
+	      ></Button>
+	     <Button android:id="@+id/StatusSubmitButton1" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:text="@string/share"></Button>
+         <Button android:id="@+id/ShowWallButton1" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:text="Show   Wall"></Button>
+                </LinearLayout>
+</LinearLayout>
+<ScrollView
+		style="@style/contentContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/activity_feed_content1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:visibility="visible" >
+			</LinearLayout>
+		
+		
+		</LinearLayout>
+		
+	</ScrollView>
+</LinearLayout>
+	
+	<ScrollView
+		style="@style/contentContainer"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:visibility="gone">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="5dp"
+			android:id="@+id/activity_post_content" />
+	</ScrollView>
+	
+</RelativeLayout>
+

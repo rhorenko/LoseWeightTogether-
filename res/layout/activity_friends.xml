@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+		style="@style/headerContainer" >
+		<ImageView
+			style="@style/headerIcon" />
+		<TextView
+			style="@style/headerText"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="@string/activity_friends_title" />
+	</LinearLayout>
+	
+	<LinearLayout
+		style="@style/footerContainer"
+		android:gravity="center_vertical" >
+		<TextView
+			style="@style/headerText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:text="@string/activity_friends_search" />
+		<EditText
+			style="@style/editText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:id="@+id/activity_friends_search_edit" />
+	</LinearLayout>
+
+	<ScrollView
+		style="@style/contentContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activity_friends_content"
+			android:orientation="vertical" />
+	</ScrollView>
+
+</RelativeLayout>

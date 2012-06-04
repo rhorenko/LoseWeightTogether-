@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+		style="@style/headerContainer" >
+		<ImageView
+			style="@style/headerIcon" />
+		<TextView
+			style="@style/headerText"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="@string/app_name" />
+	</LinearLayout>
+	
+	<LinearLayout
+		style="@style/footerContainer"
+		android:gravity="center" >
+		<Button
+			style="@style/footerButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/activity_main_button_logout"
+			android:id="@+id/activity_main_button_logout" />
+	</LinearLayout>
+	
+	<LinearLayout
+		style="@style/contentContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+		<TextView
+			style="@style/separator"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/activity_main_current_user" />
+		<include
+			layout="@layout/view_user"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activity_main_current_user" />
+		<TextView
+			style="@style/separator"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/activity_main_options" />
+		<GridView
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:columnWidth="90dp"
+			android:numColumns="auto_fit"
+			android:verticalSpacing="10dp"
+			android:horizontalSpacing="10dp"
+			android:stretchMode="columnWidth"
+			android:gravity="center"
+			android:id="@+id/activity_main_grid" />
+	</LinearLayout>
+	
+</RelativeLayout>

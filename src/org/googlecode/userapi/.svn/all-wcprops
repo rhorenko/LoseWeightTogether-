@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/97/trunk/src/org/googlecode/userapi
+END
+VkontakteAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/97/trunk/src/org/googlecode/userapi/VkontakteAPI.java
+END
+CaptchaHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/src/org/googlecode/userapi/CaptchaHandler.java
+END
+Captcha.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/96/trunk/src/org/googlecode/userapi/Captcha.java
+END
+WallMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/86/trunk/src/org/googlecode/userapi/WallMessage.java
+END
+MessageHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/81/trunk/src/org/googlecode/userapi/MessageHistory.java
+END
+PageHiddenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/39/trunk/src/org/googlecode/userapi/PageHiddenException.java
+END
+UrlBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/82/trunk/src/org/googlecode/userapi/UrlBuilder.java
+END
+JSONHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/70/trunk/src/org/googlecode/userapi/JSONHelper.java
+END
+ListWithTotal.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11/trunk/src/org/googlecode/userapi/ListWithTotal.java
+END
+ProfileInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/93/trunk/src/org/googlecode/userapi/ProfileInfo.java
+END
+MessagesStruct.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/78/trunk/src/org/googlecode/userapi/MessagesStruct.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/94/trunk/src/org/googlecode/userapi/User.java
+END
+HttpClientHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/92/trunk/src/org/googlecode/userapi/HttpClientHelper.java
+END
+UserapiLoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/77/trunk/src/org/googlecode/userapi/UserapiLoginException.java
+END
+CaptchaHandlerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/70/trunk/src/org/googlecode/userapi/CaptchaHandlerImpl.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/trunk/src/org/googlecode/userapi/Status.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/87/trunk/src/org/googlecode/userapi/Message.java
+END
+Timestamps.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/80/trunk/src/org/googlecode/userapi/Timestamps.java
+END
+DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/70/trunk/src/org/googlecode/userapi/DataException.java
+END
+Photo.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/59/trunk/src/org/googlecode/userapi/Photo.java
+END
+ChangesHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/80/trunk/src/org/googlecode/userapi/ChangesHistory.java
+END
+Credentials.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/95/trunk/src/org/googlecode/userapi/Credentials.java
+END

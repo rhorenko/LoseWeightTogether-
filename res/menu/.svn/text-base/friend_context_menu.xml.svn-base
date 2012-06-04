@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/add_to_friends" android:id="@+id/add_to_friends"/>
+    <item android:title="@string/send_message" android:id="@+id/send_message"/>
+    <item android:title="@string/remove_from_friends" android:id="@+id/remove_from_friends"/>
+</menu>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/408/trunk/src/org/googlecode/vkontakte_android/utils
+END
+AppHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/363/trunk/src/org/googlecode/vkontakte_android/utils/AppHelper.java
+END
+ServiceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/348/trunk/src/org/googlecode/vkontakte_android/utils/ServiceHelper.java
+END
+AvatarLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/397/trunk/src/org/googlecode/vkontakte_android/utils/AvatarLoader.java
+END
+VLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/348/trunk/src/org/googlecode/vkontakte_android/utils/VLog.java
+END
+Phone.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/235/trunk/src/org/googlecode/vkontakte_android/utils/Phone.java
+END
+PropertiesHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/242/trunk/src/org/googlecode/vkontakte_android/utils/PropertiesHolder.java
+END
+ProfileInfoHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/270/trunk/src/org/googlecode/vkontakte_android/utils/ProfileInfoHelper.java
+END
+TextFormatHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/408/trunk/src/org/googlecode/vkontakte_android/utils/TextFormatHelper.java
+END
+UserHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/358/trunk/src/org/googlecode/vkontakte_android/utils/UserHelper.java
+END
+PreferenceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/393/trunk/src/org/googlecode/vkontakte_android/utils/PreferenceHelper.java
+END
+ContactsHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/235/trunk/src/org/googlecode/vkontakte_android/utils/ContactsHelper.java
+END

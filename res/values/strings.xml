@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="sent">Sent</string>
+    <string name="inbox">Inbox</string>
+    <string name="exit">Exit</string>
+    <string name="logout">Logout</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Login</string>
+    <string name="nologin">No account?</string>
+    <string name="app_name">LoseWeightTogether!</string>
+    <string name="app_description">Application for manage your weight</string>
+    <string name="legal">Legal Information</string>
+    <string name="inputWeight">Your weight</string>
+    <string name="inputHeight">Your height</string>
+    <string name="ok">Ok</string>
+    <string name="send">Send</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit_hist">Edit</string>
+    <string name="menu_share_friends">Share</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_main_calc_bmi">  Calc BMI</string>
+    <string name="menu_main_hist">  History</string>
+    <string name="menu_main_add">     Add</string>
+    <string name="menu_main_share">    Share</string>
+    <string name="menu_main_about">    About</string>
+    <string name="menu_main_exit">     Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_status">Delete</string>
+    <string name="online_only">Online only</string>
+    <string name="from">From:</string>
+    <string name="field_date">Date</string>
+    <string name="field_weight">Weight</string>
+    <string name="to">Whom:</string>
+	<string name="field_name">Name:</string>
+    <string name="field_phone">Phone:</string>
+    <!-- HomeGrid -->
+    <string name="my_profile">My Profile</string>
+    <string name="friends">Friends</string>
+    <string name="messages">Messages</string>
+    <string name="updates">Updates</string>
+    <string name="photos">Photos</string>
+    <string name="help">Help</string>
+    <string name="requests">Requests</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="what_are_you_doing">What you are doing?</string>
+    <string name="title_add">Add new</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_delete">Delete this?</string>
+    <!-- Settings -->
+    <string name="prefs_title">Settings</string>
+    <string name="period_title">Background updates</string>
+    <string name="sound_title">Sound</string>
+    <string name="notif_title">Notifications</string>
+    <string name="load_pics_title">Download pictures</string>
+
+    <string name="refresh">Refresh</string>
+	<string name="toast_notify">Please select item!</string>
+    <string name="about">About</string>
+    <string name="send_message">Send message</string>
+    <string name="remove_from_friends">Remove from friends</string>
+    <string name="view_profile">View profile</string>
+    <string name="add_to_friends">Add to friends</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="message_sent">Message sent!</string>
+    <!--info-->
+    <string name="build">, build</string>
+    <string name="version">Version</string>
+    <!--status messages--> 
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <!--error messages-->  
+    <string name="err_msg_check_connection_to_send">Cannot send the message. Check connection.</string>
+    <string name="err_msg_connection_problem">Connection problems</string>
+    <string name="err_msg_fatal_error">Fatal error. Cannot connect to the service</string>
+    <string name="err_msg_offer_report"> Application had crashed last time. Would you send the error report? </string>
+    <string name="err_msg_check_connection">Please check your Internet connection</string>
+    <string name="err_msg_wrong_pass"> Password incorrect! </string>
+    <string name="err_msg_wrong_pass_long"> No such e-mail address has been registered or your password is incorrect</string>
+    <string name="err_msg_captcha">Captcha required! </string>
+    <string name="err_msg_captcha_long">Captcha required, please try again later or login via wifi</string>
+    <string name="err_msg_internal_error">Internal error! </string>
+    <string name="err_msg_report">Please report to developers</string>
+    
+    <!--state messages-->
+    <string name="state_msg_checking_cred"> Please wait while checking your credentials... </string>  
+   
+    
+    <!--update statuses-->
+    <string name="status_update_ok">Update successful</string>
+    <string name="status_update_err">Update failed</string>
+    <!--login message-->
+    <string name="login_err">Login/pass incorrect</string>
+    <string name="view_and_reply">View message thread/reply</string>
+    <string name="reply">Reply</string>
+    <string name="delete_message">Delete message</string>
+    <string name="please_login">Please enter your login/pass</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="mark_as_read">Mark as read</string>
+    <string name="remember">Remember me</string>
+    <!--user info-->
+    <string name="info">Info</string>
+    <string name="info_sex">Sex:</string>
+    <string name="info_birthday">Birthday:</string>
+    <string name="info_status">Maritial status:</string>
+    <string name="info_views">Political views:</string>
+    <string name="info_location">Location:</string>
+    <string name="info_phone">Phone:</string>
+    <string name="info_name">Name:</string>
+    <string name="sex_female">Female</string>
+    <string name="sex_male">Male</string>
+    <string name="info_city">Location:</string>
+    <string name="send_by_me">Me</string>
+    <!--family status-->
+    <string name="fs_single_female">Single</string>
+    <string name="fs_single_male">Single</string>
+    <string name="fs_engaged_male">Engaged</string>
+    <string name="fs_engaged_female">Engaged</string>
+    <string name="fs_married_female">Married</string>
+    <string name="fs_married_male">Married</string>
+    <string name="fs_as">Actively searching</string>
+    <string name="fs_complicated">It\'s complicated</string>
+    <string name="fs_relationship">In a relationship</string>
+    <!--political views-->
+    <string name="pv_apathetic">Apathetic</string>
+    <string name="pv_communist">Communist</string>
+    <string name="pv_socialist">Socialist</string>
+    <string name="pv_moderate">Moderate</string>
+    <string name="pv_liberal">Liberal</string>
+    <string name="pv_conservative">Conservative</string>
+    <string name="pv_monarchist">Monarchist</string>
+    <string name="pv_ultraconservative">Ultraconservative</string>
+    <!-- Notifications -->
+    <string name="notif_new_events">New events</string>
+    <string name="notif_new_friend">New friend</string>
+    <string name="notif_new_friends">New friends</string>
+    <string name="notif_new_message">New message</string>
+    <string name="notif_new_messages">New messages</string>
+    <string name="notif_new_photo">New photo</string>
+    <string name="notif_new_photos">New photos</string>
+    <string name="notif_friends">Friends:</string>
+    <string name="notif_messages">Messages:</string>
+    <string name="notif_photos">Photo:</string>
+    
+    <string name="captcha_loading">loading captcha</string>
+    <string name="captcha_load_failed">failed to load captcha</string>
+    <string name="captcha_request_title">Catcha required</string>
+    
+    <!-- BMI -->
+        <!-- These are the classifications for the different BMI levels. -->
+        <!-- You may find these names under you language's Wikipedia entry on BMI, though they may vary from the ones here. -->
+        <!-- If they vary, please try to translate the labels below as accurately as possible. -->
+        <!-- For reference, here is the English version: http://en.wikipedia.org/wiki/Body_mass_index -->
+        <string name="starvation">Starvation</string>
+        <string name="severely_underweight">Pronounced deficiency of mass</string>
+        <string name="underweight">Lack (deficiency) of body weight</string>
+        <string name="normal">Normal</string>
+        <string name="overweight">Overweight</string>
+        <string name="obese_class_i">First-degree obesity</string>
+        <string name="obese_class_ii">Second-degree obesity</string>
+        <string name="obese_class_iii">Third-degree obesity</string>
+        <string name="textDiaolg"></string>
+     <string name="textForStatus0">Let\'s lose weight together!</string>   
+     <string name="textForAdvise">\nThis is very important - constantly remind your friends to control your weight. Try to support each other! Share your progres with your friends or remind them about diet and healthy lifestyle.</string>
+     <string name="fst_msg1">This application will help you and your friends control your weight better. \nPsychologists say, support of friends - the key to success in any work. </string>
+   	 <string name="fst_msg2">\nThis application will help you control your weight. W</string>
+  	 <string name="fst_msg3">ith the help of this app You can calculate your BMI (Body Mass Index)</string>
+     <string name="fst_msg4">– find out if you have any problem with your weight, enter data of the current weight i</string>
+     <string name="fst_msg5">n your phone, view the history of your weight changes,</string>
+     <string name="fst_msg6"> and to share with your friends and family your achievements through the </string>
+     <string name="fst_msg7">sotial networks.\n\nLose Weight Together!\n</string>
+     <string name="scd_msg1">Instruction \nHow to use the application? \n1. Set out to lose weight. The most d</string>
+     <string name="scd_msg2">ifficult – recognize the existence of the problem.\n2. Enlist the support of your family. M</string>
+     <string name="scd_msg3">aybe some of them want to lose weight too. Find out this. Build t</string>
+     <string name="scd_msg4">he action plan together with them: going to the gym, jogging, </string>
+     <string name="scd_msg5">morning exercises etc. \n3. Keep track of your weight by using application – </string>
+     <string name="scd_msg6">record every day (preferably at the same time) your weight</string>
+     <string name="scd_msg7">\n4. Share your achievements with your friends (</string>
+     <string name="scd_msg8">it will keep the team spirit).\n5. And the most importent – Lose Weight Together!\n</string>
+     <string name="textbmi">Body mass index (BMI) - value to assess the extent to which the mass of a person and his height. </string>
+     
+     <string name="scd_msg9">\n</string>
+     <string name="dialog_date">Date:</string> 
+     <!-- Взято из фейсбука -->    
+     <string name="request">Request!</string>
+     <string name="hello">Hello World!</string>
+     <string name="upload">Upload Photo</string><string name="post">Wall Post!</string>
+     <string name="delete">Delete Post</string>
+  
+	<string name="share_vk">Share to vkontakte.ru</string>
+     <string name="share_facebook">Share to facebook.com</string>
+     
+		<!-- User Activity -->
+	<string name="activity_user_wall_title">%s\'s Wall</string>
+	<string name="activity_user_button_wall">Show Wall</string>
+
+	<!-- Feed Activity -->
+	<string name="activity_feed_news_title">News Feed</string>
+	<string name="activity_feed_profile_title">Wall</string>
+	<string name="activity_feed_button_update">Update</string>
+	<string name="activity_feed_post_details" formatted="false">%s  ·  Comments(%d)  ·  Likes(%d)</string>
+
+	<!-- Friends Activity -->
+	<string name="activity_friends_title">Friend List</string>
+	<string name="activity_friends_search">Search</string>
+
+	<!-- Main Activity -->
+	<string name="activity_main_current_user">Current User</string>
+	<string name="activity_main_options">Options</string>
+	<string name="activity_main_button_news">News Feed</string>
+	<string name="activity_main_button_wall">Wall</string>
+	<string name="activity_main_button_friends">Friends</string>
+	<string name="activity_main_button_profile">Profile</string>
+	<string name="activity_main_button_lwt">Lose Weight Together!</string>
+	<string name="activity_main_button_logout">Logout</string>
+	
+	<!--  Chat Activity -->
+	<string name="activity_chat_title">Friends Online</string>
+	<string name="activity_chat_button_connect">Connect</string>
+	<string name="activity_chat_button_disconnect">Disconnect</string>
+	<string name="activity_chat_button_showlog">Show Log</string>
+	
+	<!--  Chat Session Activity -->
+	<string name="activity_chat_session_title">Chat with > %s</string>
+	<string name="activity_chat_session_button_send">Send</string>
+	
+	<!-- Post Activity -->
+	<string name="activity_post_title">Comments</string>
+	<string name="activity_post_button_send">Send</string>
+	<string name="activity_feed_set">Set</string>
+	</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/prefs_title">
+
+        <ListPreference android:key="sync_period" android:title="@string/period_title"
+                        android:entries="@array/period" android:entryValues="@array/period_val"
+                        android:defaultValue="-1"/>
+
+        <CheckBoxPreference android:key="notif"
+                            android:title="@string/notif_title" android:defaultValue="true"/>
+
+        <CheckBoxPreference android:key="sound"
+                            android:title="@string/sound_title" android:defaultValue="true"/>
+
+        <CheckBoxPreference android:key="pics"
+                            android:title="@string/load_pics_title" android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

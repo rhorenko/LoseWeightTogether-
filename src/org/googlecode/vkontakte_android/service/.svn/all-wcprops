@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/402/trunk/src/org/googlecode/vkontakte_android/service
+END
+MyRemoteException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/341/trunk/src/org/googlecode/vkontakte_android/service/MyRemoteException.java
+END
+UpdatesNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/274/trunk/src/org/googlecode/vkontakte_android/service/UpdatesNotifier.java
+END
+IVkontakteService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/402/trunk/src/org/googlecode/vkontakte_android/service/IVkontakteService.aidl
+END
+VkontakteServiceBinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/402/trunk/src/org/googlecode/vkontakte_android/service/VkontakteServiceBinder.java
+END
+AutoUpdateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/307/trunk/src/org/googlecode/vkontakte_android/service/AutoUpdateService.java
+END
+CheckingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/390/trunk/src/org/googlecode/vkontakte_android/service/CheckingService.java
+END
+ApiCheckingKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/254/trunk/src/org/googlecode/vkontakte_android/service/ApiCheckingKit.java
+END

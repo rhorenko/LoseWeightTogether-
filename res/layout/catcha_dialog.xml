@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/mastbackground"
+        >
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_width="wrap_content">
+        <ViewSwitcher android:id="@+id/vs"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content">
+            <ImageView android:id="@+id/iv"
+                       android:scaleType="fitXY"
+                       android:layout_width="156dp"
+                       android:layout_height="60dp"/>
+            <TextView android:id="@+id/loading"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"/>
+        </ViewSwitcher>
+        <ImageButton android:id="@+id/captcha_refresh"
+                     android:src="@drawable/ic_menu_refresh"
+                     android:layout_width="wrap_content"
+                     android:layout_height="fill_parent"/>
+    </LinearLayout>
+    <EditText android:id="@+id/captcha_text"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:layout_marginTop="6dp"
+              android:lines="1"
+              android:inputType="textVisiblePassword"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+</LinearLayout>

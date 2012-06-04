@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/389/trunk/res/menu
+END
+updates_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/267/trunk/res/menu/updates_menu.xml
+END
+friend_profile_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/204/trunk/res/menu/friend_profile_menu.xml
+END
+status_context_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/107/trunk/res/menu/status_context_menu.xml
+END
+messages_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/350/trunk/res/menu/messages_menu.xml
+END
+message_context_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/260/trunk/res/menu/message_context_menu.xml
+END
+home_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/235/trunk/res/menu/home_menu.xml
+END
+friends_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/290/trunk/res/menu/friends_menu.xml
+END
+friend_context_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/389/trunk/res/menu/friend_context_menu.xml
+END

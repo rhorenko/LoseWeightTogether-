@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ffffff"
+              android:id="@+id/mess_layout" android:layout_marginBottom="10dip" android:orientation="vertical">
+    <TextView android:layout_height="wrap_content" android:text="Sender" android:textColor="#0000ff"
+              android:id="@+id/mess_from" android:layout_width="fill_parent"></TextView>
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_weight="20"
+                  android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/answer_btn" android:layout_weight="10"></ImageButton>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/sender_photo"></ImageView>
+        <TextView android:layout_height="wrap_content" android:layout_weight="80" android:id="@+id/message_text"
+                  android:text="Message_text" android:textColor="#000000" android:layout_marginLeft="10dip"
+                  android:layout_width="fill_parent"></TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="mast.avalons"
+          android:versionCode="3"
+          android:versionName="0.2.3">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-sdk android:targetSdkVersion="8" android:minSdkVersion="3"/>
+    <application android:label="@string/app_name" 
+    android:description="@string/app_description" 
+    android:debuggable="true" 
+    android:icon="@drawable/icon" 
+    android:allowTaskReparenting="false" 
+     android:name="org.googlecode.vkontakte_android.VApplication"
+     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+     >
+     
+        <provider android:name=".Provider" android:authorities="mast.avalons.contactprovider"/>           
+        <provider android:authorities="org.googlecode.vkontakte_android" 
+        android:name="org.googlecode.vkontakte_android.provider.UserapiProvider"/>
+            
+        <activity android:launchMode="singleTop" android:name="org.googlecode.vkontakte_android.HomeGridActivity" 
+            android:theme="@style/mastgreenstyle"></activity>
+		<activity android:name="com.facebook.android.Example"/>
+        <activity android:name="org.googlecode.vkontakte_android.FriendListActivity"/>
+        <activity android:name="org.googlecode.vkontakte_android.ui.CaptchaHandlerActivity"/>
+		<activity android:name="org.googlecode.vkontakte_android.MessagesListActivity"/>
+		<activity android:name="mast.avalons.HistoryActivity" android:theme="@style/mastgreenstyle" />
+		<activity android:name="org.googlecode.vkontakte_android.ui.MessageTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.org.googlecode.vkontakte_android.message"/>
+            </intent-filter>
+        </activity>
+		<activity android:name="org.googlecode.vkontakte_android.ComposeMessageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="imto" android:host="vkontakte"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.googlecode.vkontakte_android.FriendsListTabActivity"/>
+        <activity android:name="org.googlecode.vkontakte_android.ProfileViewActivity"/>
+        <activity  android:name="org.googlecode.vkontakte_android.UpdatesListActivity"/>
+        <activity  android:name="org.googlecode.vkontakte_android.Settings"/>
+        <activity android:configChanges="keyboardHidden|orientation" 
+        android:name="org.googlecode.vkontakte_android.ui.LoginActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="mast.avalons.MastActivity" android:screenOrientation="portrait">
+          <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+            
+        </intent-filter> 
+        </activity>
+        <activity android:name="mast.avalons.ShareActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="mast.avalons.CalcBMIActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="fi.harism.facebook.MainActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="fi.harism.facebook.FriendsActivity" />
+        <activity android:name="fi.harism.facebook.FeedActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="fi.harism.facebook.ChatActivity" />
+        <activity android:name="fi.harism.facebook.ChatSessionActivity" />
+        <activity android:name="fi.harism.facebook.UserActivity" />
+        <activity android:name="fi.harism.facebook.PostActivity" android:theme="@style/mastgreenstyle"/>
+        <activity android:name="com.google.ads.AdActivity" 
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode"/>
+        <activity android:name="mast.avalons.FacebookShareActivity" />
+        <service android:name="org.googlecode.vkontakte_android.service.CheckingService">
+            <intent-filter>
+                <action android:name="org.googlecode.vkontakte_android.action.CHECK_UPDATES"/>
+            </intent-filter>
+        </service>
+		<service android:name="org.googlecode.vkontakte_android.service.AutoUpdateService">
+            <intent-filter>
+                <action android:name="org.googlecode.vkontakte_android.action.SET_AUTOUPDATE"/>
+            </intent-filter>
+        </service>
+		<receiver android:name="org.googlecode.vkontakte_android.BroadcastReceiver">
+            <intent-filter>
+                <action android:name="org.googlecode.vkontakte_android.action.NOTIFICATION_CLEARED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="blue_background ">#7b96a8</drawable>
+    <drawable name="white_background">#ffffff</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <color name="tab_selected_text">#ffffff</color>
+    <color name="tab_unselected_text">#2b587a</color>
+    <color name="tab_selected_bkg">#36638E</color>
+    <color name="tab_unselected_bkg">#dae1e8</color>
+
+    <color name="msg_unread_bkg">#F5F9FB</color>
+    <color name="msg_read_bkg">#ffffff</color>
+	<color name="mastbackground">#304c00</color>
+    <color name="msg_divider_color">#EEEEEE</color>
+</resources>

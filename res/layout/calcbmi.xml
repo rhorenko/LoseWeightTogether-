@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  >
+    <TextView android:textSize="22dp" android:typeface="serif" android:textColor="#FFFFFF" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/inputHeight" android:layout_width="wrap_content" ></TextView>
+<LinearLayout 
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+<EditText 
+	android:text="180"
+	android:layout_height="wrap_content" 
+	android:id="@+id/inputH" 
+	android:inputType="number" android:layout_width="match_parent">
+		
+<requestFocus></requestFocus>
+
+</EditText>
+<TextView 
+	android:textSize="22dp" android:textColor="#FFFFFF"
+	android:text="cm"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	 android:typeface="serif"  >
+</TextView>
+</LinearLayout>
+<TextView 
+	android:text="@string/inputWeight" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/textView2" 
+	android:layout_width="wrap_content"  android:typeface="serif" 
+	android:textSize="22dp" android:textColor="#FFFFFF">
+</TextView>
+<LinearLayout 
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+<EditText 
+	android:text="60.0"
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/inputW" 
+	android:inputType="number">
+</EditText>
+<TextView 
+	android:textSize="22dp" android:textColor="#FFFFFF"
+	android:text="kg" android:typeface="serif" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	 >
+</TextView>
+
+</LinearLayout>
+<Button 
+	android:text="Calculate BMI" 
+	android:id="@+id/button1"  android:typeface="serif" 
+	android:layout_height="wrap_content" android:layout_width="267dp">
+</Button>
+<LinearLayout
+android:orientation="vertical"
+	android:gravity="center"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+<TextView 
+	android:textSize="22dp" android:textColor="#FFFFFF"
+	 android:typeface="serif" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:text="Your BMI">
+</TextView>
+<EditText 
+	android:text="18.51852"
+	android:layout_height="wrap_content" 
+	android:id="@+id/output_calc_bmi" 
+	android:inputType="number" android:layout_width="256dp"
+	android:gravity="right">
+</EditText>
+
+</LinearLayout>
+<TextView  android:typeface="serif" 
+	android:text="Normal" 
+	android:id="@+id/levelNameText" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="22dp" android:textColor="#FFFFFF">
+</TextView>
+<TextView  android:typeface="serif" 
+android:text="" 
+android:id="@+id/textbmi" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="22dp" android:textColor="#FFFFFF"
+android:paddingLeft="35sp">
+</TextView>
+
+</LinearLayout>

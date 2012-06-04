@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/view_and_reply" android:id="@+id/message_view_and_reply" />
+    <item android:title="@string/mark_as_read" android:id="@+id/message_mark_as_read"/>
+    <item android:title="@string/delete_message" android:id="@+id/message_delete"  />
+</menu>

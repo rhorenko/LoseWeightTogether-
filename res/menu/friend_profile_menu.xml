@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/add_to_contacts" android:id="@+id/add_to_contacts"
+          android:icon="@android:drawable/ic_menu_add"/>
+</menu>

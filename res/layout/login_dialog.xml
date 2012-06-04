@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="vertical"
+	android:layout_height="fill_parent"
+	>
+
+	
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<EditText android:id="@+id/login" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:lines="1"
+			android:inputType="textEmailAddress" android:hint="@string/email" android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:layout_marginRight="10dip"/>
+		<EditText android:id="@+id/pass" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:inputType="textPassword"
+			android:lines="1" android:hint="@string/password" android:layout_marginRight="10dip" android:layout_marginLeft="10dip"/>
+			<CheckBox android:layout_height="wrap_content" android:text="@string/remember"
+				android:checked="true" android:layout_width="fill_parent"
+				android:layout_weight="35" android:textColor="#000000" android:id="@+id/remember_box"
+				 android:layout_marginLeft="10dip" android:layout_marginRight="10dip">
+				 </CheckBox>
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			
+				 </LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout04"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal" android:layout_height="wrap_content" android:layout_weight="1" >
+		<LinearLayout android:id="@+id/LinearLayout05"
+			android:layout_height="wrap_content" android:layout_gravity="bottom|left" android:layout_width="fill_parent"
+			android:layout_weight="1" android:orientation="vertical">
+			<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:textColor="#000000"
+				android:textStyle="bold" android:textSize="15sp"
+				android:layout_gravity="center_horizontal"
+				android:text="@string/nologin" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+			<Button android:text="@string/signup"
+				android:layout_width="fill_parent" android:id="@+id/button_signup" android:layout_weight="1" android:layout_height="wrap_content" android:layout_gravity="bottom|left"></Button>
+
+
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout06"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1.5"></LinearLayout>
+		<Button android:id="@+id/button_login" android:minWidth="150dip" android:layout_gravity="bottom|right"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:text="@string/login" android:enabled="false" android:layout_height="wrap_content"/>
+	</LinearLayout>
+		
+		
+		
+	</LinearLayout>
+<ProgressBar android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:indeterminate="true"
+			android:visibility="gone" android:id="@+id/progress_bar" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#ff0000"
+			android:text="Error" android:visibility="gone" android:id="@+id/login_error" />
+	
+</LinearLayout>

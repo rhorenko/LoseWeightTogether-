@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	style="@style/backColor">
+	
+	<LinearLayout
+		style="@style/headerContainer" 
+		android:visibility="gone" >
+		<ImageView
+			style="@style/headerIcon" />
+		<TextView
+			style="@style/headerText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activity_feed_title" 
+			android:visibility="invisible"/>
+			
+	</LinearLayout>
+	<TextView
+			style="@style/separator"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/activity_main_current_user" 
+			android:visibility="gone"/>
+		
+		
+	
+	
+			<ScrollView
+		style="@style/contentContainer"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="5dp"
+			android:id="@+id/activity_post_content" 
+			android:visibility="gone"/>
+	</ScrollView>
+	
+
+
+<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	style="@style/backColor"
+	android:orientation="vertical"
+    android:gravity="center_horizontal" 
+    >
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+           <TableRow android:id="@+id/StatusTableRow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:paddingTop="4dip" android:paddingLeft="2dip">
+        <EditText android:id="@+id/StatusEditText" android:layout_height="wrap_content"
+                  android:layout_width="wrap_content" android:layout_weight="1"
+                  android:text="Я худею с помощью программы LoseWeightTogether!"
+                  android:visibility="visible">
+        </EditText>
+    </TableRow>
+</LinearLayout>
+
+    <LinearLayout 
+	android:orientation="horizontal"
+	
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+	<TextView 
+	android:textSize="22dp"
+	android:text="на " android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#000000" >
+	 </TextView>
+    <EditText 
+    android:text="1.0" android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:id="@+id/inputWeight" 
+	android:inputType="numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView 
+	android:textSize="22dp"
+	android:text="kg" android:layout_gravity="center_vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#000000" 
+	>
+	 </TextView>
+	 
+	 	 <Button android:id="@+id/SetButton"
+	     android:text="@string/activity_feed_set"
+	    android:layout_height="wrap_content"
+	     android:layout_width="wrap_content" android:layout_gravity="center_vertical"
+	      ></Button>
+	     <Button android:id="@+id/StatusSubmitButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:text="@string/share" android:visibility="invisible"></Button>
+         <Button android:id="@+id/ShowWallButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:text="Show   Wall"></Button>
+                </LinearLayout>
+</LinearLayout>
+<TextView 
+	android:textSize="22dp"
+	android:text="@string/textForAdvise"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#000000" 
+	android:gravity="center_horizontal"
+	android:id="@+id/textForAdvise"
+	>
+	 </TextView>
+<ScrollView
+		style="@style/contentContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/activity_feed_content"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:visibility="visible" >
+			</LinearLayout>
+		
+		
+		</LinearLayout>
+		
+	</ScrollView>
+</LinearLayout>
+
+</RelativeLayout>

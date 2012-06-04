@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+    android:gravity="center_horizontal" >
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+           <TableRow android:id="@+id/StatusTableRow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:paddingTop="4dip" android:paddingLeft="2dip">
+        <EditText android:id="@+id/StatusEditText" android:layout_height="wrap_content"
+                  android:layout_width="wrap_content" android:layout_weight="1"
+                  android:text="Я худею с помощью программы LoseWeightTogether!"
+                    android:typeface="serif" >
+        </EditText>
+        <Button android:id="@+id/StatusSubmitButton" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+                android:text="@string/share"></Button>
+    </TableRow>
+</LinearLayout>
+
+    <TextView android:id="@+id/textView2" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/textForAdvise"
+    android:textSize="18dp"
+    android:textColor="#ffffff"  android:typeface="serif" 
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+    </TextView>    
+    <TextView android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Мне удалось похудеть на "
+    android:textSize="22dp"
+    android:textColor="#ffffff"   android:typeface="serif" >
+    </TextView>
+    <LinearLayout 
+	android:orientation="horizontal"
+	
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+    <EditText 
+    android:text="1.0"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:id="@+id/inputWeight" 
+	android:inputType="numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView 
+	android:textSize="22dp"
+	android:text="kg"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:textColor="#ffffff" >
+	 </TextView>
+	 </LinearLayout>
+	 <LinearLayout 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal">
+    
+  </LinearLayout>
+	 <Button android:id="@+id/button6"
+	    android:text="Установить"
+	    android:onClick="myClickHandler"
+	    android:layout_height="wrap_content"
+	     android:layout_width="wrap_content"></Button>
+</LinearLayout>

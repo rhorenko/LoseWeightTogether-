@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="?android:attr/listPreferredItemHeight" 
+                android:padding="3dip"
+                android:background="@drawable/mastbackground">
+
+    <ImageView android:id="@+id/indicator"
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/ic_sms_unread_msg_indicator" android:visibility="invisible"/>
+
+    <ImageView
+            android:id="@+id/photo"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:layout_width="80px" android:padding="3dp"/>
+
+    <TextView android:id="@+id/status"
+              android:layout_width="fill_parent"
+              android:layout_height="26dip"
+              android:layout_toRightOf="@id/photo"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentRight="true"
+              android:singleLine="true"
+              android:ellipsize="marquee"
+              android:text="Online"/>
+
+    <TextView android:id="@+id/name"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/photo"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:layout_above="@id/status"
+              android:layout_alignWithParentIfMissing="true"
+              android:gravity="center_vertical"
+              android:text="FirstName LastName"/>
+
+</RelativeLayout>

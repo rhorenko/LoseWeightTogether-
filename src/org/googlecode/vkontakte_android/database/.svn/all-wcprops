@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/408/trunk/src/org/googlecode/vkontakte_android/database
+END
+StoredFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/257/trunk/src/org/googlecode/vkontakte_android/database/StoredFile.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/407/trunk/src/org/googlecode/vkontakte_android/database/UserDao.java
+END
+ProfileDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/408/trunk/src/org/googlecode/vkontakte_android/database/ProfileDao.java
+END
+StatusDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/342/trunk/src/org/googlecode/vkontakte_android/database/StatusDao.java
+END
+MessageDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/343/trunk/src/org/googlecode/vkontakte_android/database/MessageDao.java
+END

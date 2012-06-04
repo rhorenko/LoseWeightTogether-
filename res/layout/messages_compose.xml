@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <ListView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="100"
+              android:id="@android:id/list"/>
+    <LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:gravity="center"
+                  android:layout_width="fill_parent" android:visibility="gone">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/prev_mess"/>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/next_mess"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <EditText android:layout_height="fill_parent"
+                  android:layout_width="wrap_content"
+                  android:layout_weight="1.0"
+                  android:id="@+id/mess_to_send" android:imeOptions="actionSend" android:inputType="textLongMessage"/>
+        <Button android:layout_width="wrap_content"
+                android:text="@string/send"
+                android:id="@+id/send_reply"
+                android:layout_height="fill_parent"/>
+    </LinearLayout>
+</LinearLayout>
